@@ -59,7 +59,7 @@ function writeToFile(fileName, data) {
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
-// Create a function to initialize app
+// Create a function to initialize the application
 function init() {
   inquirer.prompt(questions).then((responses) => {
     writeToFile('README.md', generateMarkdown({ ...responses }));
@@ -67,5 +67,5 @@ function init() {
   });
 }
 
-// Function call to initialize app
+// Function call to initialize the application
 init();
