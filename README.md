@@ -18,5 +18,5 @@ Once the package and node modules installation are completed, the application ca
 
 ## Screenshot 
 
-![README Generator Screenshot](develop/images/read-me-generator-scrn-sht_.JPG)
+![README Generator Screenshot](Develop/images/read-me-generator-scrn-sht_.JPG)
 
